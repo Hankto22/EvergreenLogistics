@@ -3061,6 +3061,27 @@ a {
     width: 56px;
     height: 56px;
   }
+
+  /* Ensure grids are full width on mobile */
+  .grid {
+    width: 100%;
+  }
+
+  /* Adjust about mosaic for mobile */
+  .about-mosaic {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .mosaic-cell img {
+    height: 200px;
+  }
+
+  /* Gallery grid adjustments */
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
 
 /* Reduced motion support */
