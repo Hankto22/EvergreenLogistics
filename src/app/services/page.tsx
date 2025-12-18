@@ -96,7 +96,7 @@ const serviceCards = [
 
 const extras = [
   { title: "International Trade Consulting", copy: "Expert advice on global trade regulations.", icon: <IconGlobe size={18} /> },
-  { title: "Cargo Insurance", copy: "Comprehensive coverage for your shipments.", icon: <IconShield size={18} /> },
+  { title: "Customer Satisfaction", copy: "Comprehensive coverage for your shipments with customer satisfaction as we handle the customer from landing up to departure: taking customer from shop-manufacturer-shipping.", icon: <IconShield size={18} /> },
   { title: "Container Shipping", copy: "FCL and LCL container services.", icon: <IconBox size={18} /> }
 ];
 
