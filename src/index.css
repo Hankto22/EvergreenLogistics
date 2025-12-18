@@ -3053,6 +3053,16 @@ a {
   transform: rotate(180deg);
 }
 
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .scroll-btn {
+    bottom: 16px;
+    right: 16px;
+    width: 56px;
+    height: 56px;
+  }
+}
+
 /* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
   .scroll-btn,
